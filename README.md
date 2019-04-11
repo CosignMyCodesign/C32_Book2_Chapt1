@@ -1,3 +1,5 @@
+## First Lesson As Teaching Assistant with Cohort 32 @ Nashville Software School
+
 # Query the DOM with querySelector()
 
 ## Retrieve the First Matching Component
