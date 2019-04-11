@@ -9,9 +9,16 @@ const targetSelector = document.querySelector(".article__header").textContent = 
 const targetSelector2 = document.querySelectorAll(".article__header");
 
 for (let i = 0; i < targetSelector2.length; i++) {
+  // console.log("targetSelector2[i]", targetSelector2[i])
   targetSelector2[i].classList.add("important")
 }
-    // console.log("targetSelector2[0]", targetSelector2[0])
+
+// OR
+
+targetSelector2.forEach(header => {
+    // console.log("what is header?", header)
+    header.classList.add("forEach");
+})
 
 // 3- Obtain a reference the element with a class of dashed and remove it.
 
